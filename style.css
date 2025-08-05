@@ -303,4 +303,8 @@ footer {
     background-size: cover;
     width: 450px;
     height: 550px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
