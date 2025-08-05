@@ -101,24 +101,7 @@ body {
 
 }
 
-a.btn.btn-primary {
-    margin-top: 5px;
-}
 
-.offcanvas-header {
-    background: #bd032b;
-    padding: 10px;
-}
-
-.offcanvas-body {
-    background: #bd032b;
-}
-
-.botao {
-    margin-top: -15px;
-    color: #ce2340;
-
-}
 
 .card-body-kakashi {
     background-image: url(https://images.alphacoders.com/133/thumb-1920-1337463.png);
@@ -304,4 +287,25 @@ footer {
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+#top-villains-title {
+    font-size: 2rem;
+    padding: 0 10px;
+}
+
+@media (max-width: 600px) {
+    #top-villains-title {
+        font-size: 1.3rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+        padding: 0 10px;
+    }
+
+    .carousel-inner img {
+        max-width: 100%;
+        height: auto;
+    }
 }
