@@ -81,9 +81,6 @@ body {
     background-position: 50% 100%;
 }
 
-.navbar {
-    background-color: #bd032b;
-}
 
 .navbar-brand {
     color: #ffffff;
@@ -240,7 +237,7 @@ div#top-villains.content {
 }
 
 footer * {
-    color: aqua !important;
+    color: red !important;
 }
 
 footer {
